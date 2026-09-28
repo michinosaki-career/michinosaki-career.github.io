@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://takuya-dev-sys.github.io/michinosaki-site/sitemap.xml
