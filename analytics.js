@@ -21,7 +21,8 @@
     if (!a) return;
     var href = a.getAttribute('href') || '';
     var name = null;
-    if (href.indexOf('lin.ee/') !== -1) name = 'line_click';
+    if (href.indexOf('addness.com/f/') !== -1) name = 'form_click';
+    else if (href.indexOf('lin.ee/') !== -1) name = 'line_click';
     else if (href.indexOf('mailto:') === 0) name = 'mail_click';
     if (!name) return;
     var place = a.closest('footer') ? 'footer' : a.closest('.mobile-cta') ? 'sticky' : 'body';
